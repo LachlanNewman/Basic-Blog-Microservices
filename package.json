@@ -1,0 +1,28 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "basic microservice",
+  "scripts": {
+    "start:query": "nodemon ./query",
+    "start:posts": "nodemon ./posts",
+    "start:moderation": "nodemon ./moderation",
+    "start:event-bus": "nodemon ./event-bus",
+    "start:comments": "nodemon ./comments"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LachlanNewman/Basic-Blog-Microservices.git"
+  },
+  "author": "Lachlan Newman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LachlanNewman/Basic-Blog-Microservices/issues"
+  },
+  "homepage": "https://github.com/LachlanNewman/Basic-Blog-Microservices#readme",
+  "dependencies": {
+    "axios": "0.26.1",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "nodemon": "2.0.7"
+  }
+}
